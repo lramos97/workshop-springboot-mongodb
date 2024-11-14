@@ -3,7 +3,6 @@ package com.ramoslarissa.workshopmongo.dto;
 import com.ramoslarissa.workshopmongo.domain.User;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 public class UserDTO implements Serializable {
 
