@@ -1,5 +1,6 @@
 package com.ramoslarissa.workshopmongo.domain;
 
+import com.ramoslarissa.workshopmongo.dto.AuthorDTO;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -20,5 +21,5 @@ public class Post implements Serializable {
     private Date date;
     private String title;
     private String body;
-    private User author;
+    private AuthorDTO author;
 }

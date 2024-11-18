@@ -8,18 +8,16 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-public class UserDTO implements Serializable {
+public class AuthorDTO implements Serializable {
 
     private String id;
     private String name;
-    private String email;
 
-    public UserDTO() {
+    public AuthorDTO() {
     }
 
-    public UserDTO(User obj) {
+    public AuthorDTO(User obj) {
         id = obj.getId();
         name = obj.getName();
-        email = obj.getEmail();
     }
 }
